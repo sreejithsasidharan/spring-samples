@@ -1,0 +1,5 @@
+https://spring.io/blog/2014/12/02/latest-jackson-integration-improvements-in-spring
+https://github.com/sdeleuze/spring-jackson-demo/tree/master/src/main/java/demo
+
+
+http://javapapers.com/java/java-facebook-login-with-oauth-authentication/

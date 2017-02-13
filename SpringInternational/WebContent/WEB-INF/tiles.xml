@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition" template="/WEB-INF/pages/views/layout.jsp">
+        <put-attribute name="title" value="FrameworkOnly | Apache Tiles 3 + Spring 4 MVC"></put-attribute>
+        <put-attribute name="stylecss" value="/WEB-INF/pages/common/stylecss.jsp"></put-attribute>
+        <put-attribute name="scriptjs" value="/WEB-INF/pages/common/scriptjs.jsp"></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/pages/common/header.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/pages/common/footer.jsp"></put-attribute>
+        <put-attribute name="lazyscriptjs" value="/WEB-INF/pages/common/lazyloadScriptjs.jsp"></put-attribute>        
+    </definition>
+    
+    <definition name="home" extends="base.definition">
+        <put-attribute name="title" value="Home page title"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/toplevel/home.jsp"></put-attribute>
+    </definition>
+
+<definition name="welcome" extends="base.definition">
+        <put-attribute name="title" value="Contact page title"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/toplevel/welcome.jsp"></put-attribute>
+    </definition>
+    
+    
+</tiles-definitions>
